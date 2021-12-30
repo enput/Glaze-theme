@@ -7,6 +7,9 @@
     background: var(--spice-text);
     content-visibility: hidden;
 }
+.main-topBar-UpgradeButton{
+    display:none !important;
+}
 
 .main-rootlist-rootlistDivider, .main-rootlist-rootlistDividerContainer{
     visibility: hidden !important;
