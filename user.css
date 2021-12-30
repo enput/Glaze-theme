@@ -123,8 +123,8 @@ height:20px !important;
 .main-card-card {
     background: var(--spice-card);
     }
-    .Z35BWOA10YGn5uc9YgAp {
-    background-color: var(--spice-player);
+.Z35BWOA10YGn5uc9YgAp {
+    background-color: var(--spice-player) !important;
 }
 .main-card-card:hover{
     background: var(--spice-sidebar);
