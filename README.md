@@ -3,13 +3,14 @@
 ## Screenshots
 
 ### Base
-![Base screenshot(screenshots/base.png)
+<img src="https://github.com/CharlieS1103/Glaze-theme/blob/main/screenshots/base.png" alt="img" width="500px"> 
+
 
 ### Dark
-![Dark screenshot(screenshots/dark.png)]
+<img src="https://github.com/CharlieS1103/Glaze-theme/blob/main/screenshots/dark.png" alt="img" width="500px"> 
 
 ### Gray
-![Gray screenshot(screenshots/gray.png)]
+<img src="https://github.com/CharlieS1103/Glaze-theme/blob/main/screenshots/gray.png" alt="img" width="500px"> 
 
 ## Important
 It may be necessary to enable sidebar config in order to make certain aspects of the theme.
