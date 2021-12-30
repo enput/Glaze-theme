@@ -107,6 +107,12 @@ span.main-createPlaylistButton-text.standalone-ellipsis-one-line.main-type-mesto
     width:30px;
     height:30px;
 }
+#spicetify-show-list > div:nth-child(9) {
+    padding-right: 1100px;
+}
+#spicetify-show-list > div:nth-child(7) {
+    padding-left: 20px;
+}
 #spicetify-show-list > div > a > div.main-collectionLinkButton-icon > div > svg, #spicetify-show-list > div.GlueDropTarget.GlueDropTarget--albums.GlueDropTarget--tracks.GlueDropTarget--local-tracks.GlueDropTarget--episodes.personal-library > button > div > div > svg,#spicetify-show-list > div.GlueDropTarget.GlueDropTarget--albums.GlueDropTarget--tracks.GlueDropTarget--local-tracks.GlueDropTarget--episodes > button > div > div > svg{
 width:20px !important;
 height:20px !important;
