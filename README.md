@@ -17,4 +17,15 @@ It may be necessary to enable sidebar config in order to make certain aspects of
 
 ##### To enable: `spicetify config sidebar_config 1`
 
+## Installation:
 
+**Linux and MacOS** in Bash:
+```bash
+cd "$(dirname "$(spicetify -c)")/Themes"
+git clone https://github.com/CharlieS1103/Glaze-theme
+```
+
+**Windows** in Powershell:
+```powershell
+cd "$(spicetify -c | Split-Path)\Themes"
+git clone https://github.com/CharlieS1103/Glaze-theme
