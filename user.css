@@ -114,7 +114,16 @@ span.main-createPlaylistButton-text.standalone-ellipsis-one-line.main-type-mesto
 #spicetify-show-list > div > a > div.main-collectionLinkButton-icon > div, .main-createPlaylistButton-createPlaylistIcon {
     width:30px;
     height:30px;
+    background: var(--spice-text);
+    color: var(--spice-sidebar)
 }
+.main-shuffleButton-button.pp1ooFGqFEUG5ucC6_KW, .main-repeatButton-button.yKo7LWUCQCEALszRxAaS {
+    color: var(--spice-button);
+}
+.main-skipBackButton-button, .main-skipForwardButton-button{
+        color: var(--spice-subtext);
+}
+
 #spicetify-show-list > div:nth-child(9) {
     padding-right: 1100px;
 }
