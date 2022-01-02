@@ -7,9 +7,8 @@
     background: var(--spice-text);
     content-visibility: hidden;
 }
-.main-topBar-UpgradeButton{
-    display:none !important;
-}
+
+/* Sidebar changes*/
 .main-yourEpisodesButton-yourEpisodesIcon { 
     background: var(--spice-text); 
     } 
@@ -18,13 +17,6 @@
     }
 .main-rootlist-rootlistDivider, .main-rootlist-rootlistDividerContainer{
     visibility: hidden !important;
-}
-
-div.main-cardImage-imageWrapper.main-cardImage-roundedCorners > div > div > svg > path {
-    color: blue;
-    background-color: blue;
-    fill: var(--spice-sidebar);
-    opacity: 0.7;
 }
 
 .main-yourEpisodes-coverContainer{
@@ -43,16 +35,7 @@ background-color: var(--spice-text);
     background: var(--spice-text);
 }
 
-.main-leaderboardComponent-container{
-  display: none;
-}
-.desktoproutes-homepage-takeover-ad-hptoComponent-parentContainer{
-  display: none !important;
-}
-.main-yourEpisodesButton-yourEpisodesIcon path {
-    fill: var(--spice-sidebar);
 
-}
 #spicetify-show-list{
     width:90%;
     margin-right: 1px;
@@ -222,6 +205,9 @@ height:20px !important;
 .epWhU7hHGktzlO_dop6z{
     background-color: var(--spice-text);
 }
+.main-playPauseButton-button[disabled] {
+    background-color: unset !important;
+}
 /*Hide things and general cleanup */
 nav.Root__nav-bar {
     min-width: 200px !important;
@@ -241,4 +227,23 @@ nav.Root__nav-bar {
 }
 .main-trackList-trackListHeader{
 	position: unset !important;
+}
+div.main-cardImage-imageWrapper.main-cardImage-roundedCorners > div > div > svg > path {
+    color: blue;
+    background-color: blue;
+    fill: var(--spice-sidebar);
+    opacity: 0.7;
+}
+/* Block ads */
+.main-leaderboardComponent-container{
+  display: none;
+}
+.desktoproutes-homepage-takeover-ad-hptoComponent-parentContainer{
+  display: none !important;
+}
+.main-yourEpisodesButton-yourEpisodesIcon path {
+    fill: var(--spice-sidebar);
+}
+.main-topBar-UpgradeButton{
+    display:none !important;
 }
