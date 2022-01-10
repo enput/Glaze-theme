@@ -247,3 +247,7 @@ div.main-cardImage-imageWrapper.main-cardImage-roundedCorners > div > div > svg 
 .main-topBar-UpgradeButton{
     display:none !important;
 }
+/* Modal changes*/
+.main-trackCreditsModal-container {
+background-color:var(--spice-misc);
+}
