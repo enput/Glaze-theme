@@ -251,3 +251,7 @@ div.main-cardImage-imageWrapper.main-cardImage-roundedCorners > div > div > svg 
 .main-trackCreditsModal-container {
 background-color:var(--spice-misc);
 }
+/* Fixes same color on button and button text in some scenarios(Especially on modals)*/
+.main-button-primary{
+    color:var(--spice-subtext)
+}
