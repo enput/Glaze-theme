@@ -259,3 +259,16 @@ background-color:var(--spice-misc);
 .main-button-primary{
     color:var(--spice-subtext)
 }
+/* Fix progress bar displacement on playing on another device popup*/
+.main-connectBar-connectBar {
+    overflow: visible !important;
+    --triangle-position: 147px !important;
+    align-items: unset !important;
+    height: 0px !important;
+    position: absolute !important;
+    left: 80% !important;
+    display: flex !important;
+    bottom: 2% !important;
+    padding: unset !important;
+
+}
