@@ -214,6 +214,9 @@ nav.Root__nav-bar {
     max-width: 235px;
     border-right: 1px solid var(--spice-selected-row);
 }
+.x-toggle-indicatorWrapper {
+    background-color: var(--spice-button-disabled) !important;
+}
 .os-host-resize-disabled.os-host-scrollbar-vertical-hidden>.os-scrollbar-horizontal {
 
     display: none;
