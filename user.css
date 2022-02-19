@@ -149,7 +149,7 @@ height:20px !important;
     left: -1px;
     z-index: 1;
 }
-.playback-bar__progress-time-elapsed.main-type-finale,.main-playbackBarRemainingTime-container {
+.main-playbackBarRemainingTime-container, .playback-bar__progress-time-elapsed {
     display: none;
 }
 .main-nowPlayingBar-left {
