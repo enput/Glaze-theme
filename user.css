@@ -1,5 +1,7 @@
 /* Glaze Theme*/
-
+#main{
+    background-color: var(--spice-main);
+}
 
 
 .main-trackList-playingIcon {
@@ -64,8 +66,8 @@ background-color: var(--spice-text);
     width:0px !important;
     padding: 0x !important;
     margin:0px !important;
-    border-top: var(--spice-selected-row)solid 1px;
-    border-bottom: var(--spice-selected-row)solid 1px;
+    border-top: var(--spice-selected-row) solid 1px;
+    border-bottom: var(--spice-selected-row) solid 1px;
 }
 #spicetify-show-list > div > a > span, #spicetify-show-list > div.GlueDropTarget.GlueDropTarget--albums.GlueDropTarget--tracks.GlueDropTarget--local-tracks.GlueDropTarget--episodes.personal-library > button > span{
     display: none;
@@ -118,7 +120,7 @@ width:20px !important;
 height:20px !important;
 }
 #spicetify-show-list > li:nth-child(3){
-	border-bottom: var(--spice-selected-row)solid 1px;
+	border-bottom: var(--spice-selected-row) solid 1px;
 }
 .main-card-card {
     background: var(--spice-card);
@@ -142,7 +144,7 @@ height:20px !important;
     background-color:unset !important;
     }
 /* Playback bar and controls*/
-.playback-bar {
+.main-nowPlayingBar-nowPlayingBar {
     width: 100%;
     bottom: 83px;
     position: absolute;
@@ -213,6 +215,7 @@ nav.Root__nav-bar {
     min-width: 200px !important;
     max-width: 235px;
     border-right: 1px solid var(--spice-selected-row);
+    background-color: var(--spice-sidebar);
 }
 .x-toggle-indicatorWrapper {
     background-color: var(--spice-button-disabled) !important;
