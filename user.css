@@ -147,11 +147,14 @@ height:20px !important;
 .main-nowPlayingBar-nowPlayingBar {
     width: 100%;
     bottom: 0%;
-    position: absolute;
+    position: relative;
     left: -1px;
     background-color: var(--spice-player);
     z-index: 1;
     padding-left:0px;
+}
+.eSMjmiD29Ox35O95waw6{
+    display:none !important;
 }
 .playback-bar{
     position:absolute;
