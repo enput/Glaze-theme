@@ -153,8 +153,9 @@ height:20px !important;
     z-index: 1;
     padding-left:0px;
 }
-.eSMjmiD29Ox35O95waw6{
-    display:none !important;
+.eSMjmiD29Ox35O95waw6::after {
+    background-color: unset !important;
+    background-image: unset !important;
 }
 .playback-bar{
     position:absolute;
