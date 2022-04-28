@@ -1,6 +1,7 @@
 /* Glaze Theme*/
 #main{
     background-color: var(--spice-main);
+    overflow: hidden;
 }
 
 
