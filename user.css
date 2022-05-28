@@ -162,8 +162,11 @@ height:20px !important;
     position:absolute;
     width:100%;
     top: 90%;
+    left: 0px;
 }
-
+.cpSTHq{
+    display:none;
+}
 .main-playbackBarRemainingTime-container, .playback-bar__progress-time-elapsed {
     display: none;
 }
